@@ -1,6 +1,12 @@
 import React from "react"
 import BlogPost from "./BlogPost"
 import profilePhoto from "./assets/Photo_De_Profil.jpg"
+import photo1 from "./assets/photo1.jpg"
+import photo2 from "./assets/photo2.jpg"
+import photo3 from "./assets/photo3.jpg"
+import photo4 from "./assets/photo4.jpg"
+import photo5 from "./assets/photo5.jpg"
+import photo6 from "./assets/photo6.jpg"
 
 const blogPosts = [
   {
@@ -8,7 +14,7 @@ const blogPosts = [
     content:
       "The content of this blog post consists of text, letters, words, phrases. It's written in the english language. This is the content of this blog post. This is used as a placeholder.",
     date: "18/11/2023",
-    image: profilePhoto,
+    image: photo1,
     id: 1,
   },
   {
@@ -16,7 +22,7 @@ const blogPosts = [
     content:
       "The content of this blog post consists of text, letters, words, phrases. It's written in the english language. This is the content of this blog post. This is used as a placeholder.",
     date: "19/11/2023",
-    image: profilePhoto,
+    image: photo2,
     id: 2,
   },
   {
@@ -24,7 +30,7 @@ const blogPosts = [
     content:
       "The content of this blog post consists of text, letters, words, phrases. It's written in the english language. This is the content of this blog post. This is used as a placeholder.",
     date: "20/11/2023",
-    image: profilePhoto,
+    image: photo3,
     id: 3,
   },
   {
@@ -32,7 +38,7 @@ const blogPosts = [
     content:
       "The content of this blog post consists of text, letters, words, phrases. It's written in the english language. This is the content of this blog post. This is used as a placeholder.",
     date: "21/11/2023",
-    image: profilePhoto,
+    image: photo4,
     id: 4,
   },
   {
@@ -40,7 +46,7 @@ const blogPosts = [
     content:
       "The content of this blog post consists of text, letters, words, phrases. It's written in the english language. This is the content of this blog post. This is used as a placeholder.",
     date: "22/11/2023",
-    image: profilePhoto,
+    image: photo5,
     id: 5,
   },
   {
@@ -48,7 +54,7 @@ const blogPosts = [
     content:
       "The content of this blog post consists of text, letters, words, phrases. It's written in the english language. This is the content of this blog post. This is used as a placeholder.",
     date: "23/11/2023",
-    image: profilePhoto,
+    image: photo6,
     id: 6,
   },
 ]
