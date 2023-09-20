@@ -16,7 +16,9 @@ function BlogPost({ blogPosts }) {
 
           <h2 className="text-black text-2xl">{post.title}</h2>
           <p className="text-black p-2">{post.content}</p>
-          <p className="text-gray-400">{post.date}</p>
+          <div className="w-96 text-gray-400 pb-2 pl-1 text-left">
+            {post.date}
+          </div>
         </div>
       ))}
     </div>
