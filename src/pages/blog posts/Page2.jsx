@@ -23,7 +23,7 @@ function Page2() {
           {post.date}
           <Link
             to="/"
-            className="text-black border hover:border-sky-500 rounded-lg p-2"
+            className="m-2 text-black border hover:border-sky-500 rounded-lg p-2"
           >
             Back
           </Link>
