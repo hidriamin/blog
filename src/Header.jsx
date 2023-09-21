@@ -5,13 +5,13 @@ function Header() {
   return (
     <div className="border-b">
       <h1 className="text-black text-3xl p-3">Welcome to my blog!</h1>
-      <div className="flex flex-row items-center p-3">
+      <div className="flex flex-row items-center p-3 ">
         {" "}
         <img className="object-cover h-48 w-48 pr-3" src={profilePhoto} />
-        <div className="text-start">
+        <div className="text-start ">
           <h2 className="text-black text-2xl ">Who am i?</h2>
 
-          <p className="text-black  w-1/3">
+          <p className="text-black  w-1/3 pr-3 border-r">
             I'm a Marketing graduate who discovered he's into programming.
             Basically, i do web development. This website is part of my work.
             You can find my main website{" "}
