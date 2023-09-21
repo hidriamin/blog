@@ -66,7 +66,7 @@ const blogPosts = [
 function BlogFeed() {
   return (
     <>
-      <h1 className="text-black text-2xl p-2">Blog feed:</h1>
+      <h1 className="text-black text-3xl pt-4 pb-5">Blog feed:</h1>
       <BlogPost blogPosts={blogPosts} />{" "}
     </>
   )
