@@ -1,5 +1,6 @@
 import React from "react"
 import photo3 from "../../assets/photo3.jpg"
+import { Outlet, Link } from "react-router-dom"
 
 const post = {
   title: "Blog post 3",
@@ -20,6 +21,12 @@ function Page3() {
         />{" "}
         <div className="w-1/2 text-gray-400 pb-2 pl-1 text-left">
           {post.date}
+          <Link
+            to="/"
+            className="text-black border hover:border-sky-500 rounded-lg p-2"
+          >
+            Back
+          </Link>
         </div>
         <h2 className="text-black text-2xl py-2">{post.title}</h2>
         <p className="text-black p-2 w-1/2">{post.content}</p>

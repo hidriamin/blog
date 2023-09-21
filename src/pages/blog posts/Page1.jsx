@@ -19,10 +19,15 @@ function Page1() {
           alt="Image"
           className="object-cover h-48 w-1/2 py-3"
         />{" "}
-        <div className="w-1/2 text-gray-400 pb-2 pl-1 text-left">
-          {post.date}
+        <div className="w-1/2 text-gray-400 py-2 pl-1 text-left">
+          {post.date}{" "}
+          <Link
+            to="/"
+            className="text-black border hover:border-sky-500 rounded-lg p-2"
+          >
+            Back
+          </Link>
         </div>
-        <Link to="/">Back</Link>
         <h2 className="text-black text-2xl py-2">{post.title}</h2>
         <p className="text-black p-2 w-1/2">{post.content}</p>
       </div>
