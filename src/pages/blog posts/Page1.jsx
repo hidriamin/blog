@@ -18,17 +18,18 @@ function Page1() {
           src={post.image}
           alt="Image"
           className="object-cover h-48 w-1/2 py-3"
-        />{" "}
-        <div className="w-1/2 text-gray-400 py-1 text-left">
-          {post.date}{" "}
+        />
+        <div className="w-1/2 pb-3 text-gray-400 flex justify-between items-center">
           <Link
             to="/"
-            className=" text-black border hover:border-sky-500 rounded-lg p-2 m-2"
+            className=" text-black border hover:border-sky-500 rounded-lg p-1"
           >
             Back
           </Link>
+          <h2 className="text-black text-2xl">{post.title}</h2>
+
+          <div>{post.date}</div>
         </div>
-        <h2 className="text-black text-2xl py-2">{post.title}</h2>
         <p className="text-black p-2 w-1/2">{post.content}</p>
       </div>
     </div>
