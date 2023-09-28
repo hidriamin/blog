@@ -3,7 +3,7 @@ import profilePhoto from "./assets/Photo_De_Profil.jpg"
 
 function Header() {
   return (
-    <div className="border-b pb-3">
+    <div className="border-b pb-3 overflow-x-hidden">
       <h1 className="text-black text-3xl p-3 pb-10">Welcome to my blog</h1>
       <div className="flex flex-row justify-center">
         {" "}
