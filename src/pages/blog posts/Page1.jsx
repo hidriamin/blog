@@ -13,13 +13,13 @@ const post = {
 function Page1() {
   return (
     <div className="flex flex-col flex-wrap items-center">
-      <div key={post.id} className="w-100 m-5 flex items-center flex-col">
+      <div key={post.id} className="w-100 md:m-5 flex items-center flex-col">
         <img
           src={post.image}
           alt="Image"
-          className="object-cover h-48 w-1/2 py-3"
+          className="object-cover md:h-48 h-32 w-80 md:w-1/2 py-3"
         />
-        <div className="w-1/2 pb-3 text-gray-400 flex justify-between items-center">
+        <div className="w-80 md:w-1/2 pb-3 text-gray-400 flex justify-between items-center">
           <Link
             to="/"
             className=" text-black border hover:border-sky-500 rounded-lg p-1"
@@ -30,7 +30,7 @@ function Page1() {
 
           <div>{post.date}</div>
         </div>
-        <p className="text-black p-2 w-1/2">{post.content}</p>
+        <p className="text-black p-2 w-80 md:w-1/2">{post.content}</p>
       </div>
     </div>
   )
