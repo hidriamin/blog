@@ -65,7 +65,7 @@ const blogPosts = [
 ]
 function BlogFeed() {
   return (
-    <div className="overflow-x-hidden">
+    <div>
       <h1 className="text-black text-3xl pt-4 pb-5">Blog feed:</h1>
       <BlogPost blogPosts={blogPosts} />{" "}
     </div>

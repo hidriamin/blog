@@ -12,12 +12,12 @@ const post = {
 }
 function Page1() {
   return (
-    <div className="flex flex-col flex-wrap items-center">
+    <div className=" flex-col flex-wrap items-center">
       <div key={post.id} className="w-100 md:m-5 flex items-center flex-col">
         <img
           src={post.image}
           alt="Image"
-          className="object-cover md:h-48 h-32 w-80 md:w-1/2 py-3"
+          className="object-cover md:h-48 h-32 w-96 md:w-1/2 py-3"
         />
         <div className="w-80 md:w-1/2 pb-3 text-gray-400 flex justify-between items-center">
           <Link

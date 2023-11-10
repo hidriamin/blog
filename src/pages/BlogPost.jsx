@@ -7,7 +7,7 @@ function BlogPost({ blogPosts }) {
       {blogPosts.map((post) => (
         <div
           key={post.id}
-          className="w-80 lg:w-96 border p-3 border-black hover:shadow-black hover:shadow-sm hover:duration-150 duration-150 hover:transition-shadow flex items-center flex-col"
+          className="w-72 lg:w-96  border p-3 border-black hover:shadow-black hover:shadow-sm hover:duration-150 duration-150 hover:transition-shadow"
         >
           <Link to={post.to} class="flex flex-col items-center">
             <img
