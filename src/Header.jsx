@@ -12,8 +12,7 @@ function Header() {
           <div className="flex flex-col items-center md:pl-3 md:items-start">
             <h2 className="text-black text-2xl">Who am i?</h2>
             <p className="text-black xsm:w-48  w-80 pb-3 text-center md:text-start md:w-72">
-              I'm a Marketing graduate who discovered he's into programming.
-              Basically, i do web development. This website is part of my work.
+Im a 22 year old Tunisian, living in Germany and doing what i do.
               You can find my main website{" "}
               <a
                 href="https://hidriamin.github.io/aminhidri.com"
